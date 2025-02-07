@@ -1,14 +1,44 @@
 import React from 'react';
-import './LandingPage.css'; // Import the CSS file for styling
-// import brushImage from './brush-image.jpg'; // Import the image for the brush
 
+import mainLogo from'./assets/images/0E3A1911.png';
+import carImg from './assets/images/0E3A1885.JPG';
 const LandingPage = () => {
   return (
-    <div className="landing-page">
-      <header className="header">
-        <h1>MADEUP BRUSH</h1>
-        <h2>THE BRUSH THAT DOES IT ALL!</h2>
-      </header>
+    <div >
+ <div className="flex justify-center items-center  bg-white p-4">
+      <div className="border-4 border-blue-900 rounded-lg p-4 max-w-4xl w-full bg-white">
+        {/* Main Image */}
+        <div className="relative">
+          <img
+            src={mainLogo}
+            alt="Brush cleaning wooden floor1"
+            className="w-full rounded-lg"
+          />
+          <h1 className="absolute top-4 left-4 bg-blue-900 text-white text-3xl font-bold p-2 rounded-md">
+            MADE UP <span className="block">BRUSH</span>
+          </h1>
+        </div>
+
+        {/* Small Circular Images */}
+        <div className="flex justify-end space-x-4 mt-4">
+          <img
+            src={carImg}
+            alt="Cleaning car"
+            className="w-24 h-24 rounded-full border-4 border-blue-900"
+          />
+          <img
+            src="/images/carpet-cleaning.png"
+            alt="Cleaning carpet"
+            className="w-24 h-24 rounded-full border-4 border-blue-900"
+          />
+        </div>
+
+        {/* Footer Text */}
+        <div className="bg-blue-900 text-white text-center text-2xl font-bold p-3 mt-4 rounded-lg">
+          THE BRUSH THAT DOES IT <span className="text-white">ALL!</span>
+        </div>
+      </div>
+    </div>
 
       <section className="intro-section">
         <div className="intro-content">
