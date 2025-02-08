@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="bg-gray-100 flex flex-col items-center justify-center p-6 font-rubik">
       <div className="w-full bg-white shadow-lg rounded-2xl p-2 md:p-8 text-center">
-        {/* Page 1 - Desktop & Mobile */}
+        {/* Page 1 - Desktop */}
 
         <div className="max-sm:hidden">
           <div className="flex justify-center items-center md:min-h-screen bg-white md:p-4 md:pb-12">
@@ -54,6 +54,7 @@ function App() {
             </div>
           </div>
         </div>
+        {/* Page 1 - Mobile */}
 
         <div className="sm:hidden">
           <div className="flex justify-center items-center  bg-white p-2 pb-2 flex-col md:flex-row">
@@ -157,7 +158,7 @@ function App() {
             {/* Circle Image 1 */}
             <div className="relative flex flex-col max-sm:basis-[30%] items-center">
               <div className="relative">
-                <div className="w-[150px] h-[150px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
+                <div className="w-[100px] h-[100px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
                   <img
                     src={sweepImage}
                     alt="Sweep"
@@ -172,7 +173,7 @@ function App() {
             {/* Circle Image 2 */}
             <div className="relative flex flex-col items-center">
             <div className="relative">
-              <div className="w-[150px] h-[150px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
+              <div className="w-[100px] h-[100px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
                 <img
                   src={scrubImage}
                   alt="Scrub"
@@ -188,7 +189,7 @@ function App() {
             {/* Circle Image 3 */}
             <div className="relative flex flex-col items-center pb-2">
             <div className="relative">
-              <div className="w-[150px] h-[150px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
+              <div className="w-[100px] h-[100px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
                 <img
                   src={brushImage}
                   alt="Brush"
@@ -204,7 +205,7 @@ function App() {
             {/* Circle Image 4 */}
             <div className="relative flex flex-col items-center">
             <div className="relative">
-              <div className="w-[150px] h-[150px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
+              <div className="w-[100px] h-[100px] md:w-[330.7px] md:h-[330.7px] border-[5px] md:border-[8px] border-[#001b51] rounded-full overflow-hidden">
                 <img
                   src={squeegeeImage}
                   alt="Squeegee"
