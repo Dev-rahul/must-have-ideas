@@ -73,12 +73,12 @@ function App() {
                   <img
                     src={carImg}
                     alt="Cleaning car"
-                    className="w-[50px] h-[50px]  md:w-[328px] md:h-[328px] rounded-full border-[4px] md:border-[10px] border-[#001b51] object-cover"
+                    className="w-[100px] h-[100px]  md:w-[328px] md:h-[328px] rounded-full border-[4px] md:border-[10px] border-[#001b51] object-cover"
                   />
                   <img
                     src={carpetImg}
                     alt="Cleaning carpet"
-                    className="w-[50px] h-[50px] md:w-[328px] md:h-[328px] rounded-full border-[4px] md:border-[10px] border-[#001b51] object-cover"
+                    className="w-[100px] h-[100px] md:w-[328px] md:h-[328px] rounded-full border-[4px] md:border-[10px] border-[#001b51] object-cover"
                   />
                 </div>
               </div>
